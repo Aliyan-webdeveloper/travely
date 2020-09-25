@@ -1,0 +1,1025 @@
+body {
+    background-image: url(./images/Layer\ 15.png);
+    background-repeat: no-repeat;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* this is the top heading  */
+
+
+/* ------------------------------  */
+
+.topheading {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+
+/* this is the header area .navbar */
+
+.banner_section {
+    height: calc(100vh - 164px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    margin-top: 5px;
+    padding: 0px 5%;
+}
+
+
+/* thos is the leftside of navbar */
+
+.leftside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    color: white;
+    margin: 0px 10px;
+    font-weight: 100;
+}
+
+#dropdown {
+    background: none;
+    position: relative;
+    border: none;
+    color: white;
+    margin: 0px 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#dropdown option {
+    font-weight: 100;
+    background-color: #318cc3;
+    color: white;
+}
+
+#dropdown:focus {
+    outline: none;
+}
+
+#dropdown option:focus {
+    outline: none;
+}
+
+
+/* this is the navbar  */
+
+.navbar {
+    margin-right: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0px 20px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.manue-button {
+    display: none;
+}
+
+
+/* this is the rightside  */
+
+.right-icons {
+    opacity: 0.7;
+}
+
+.right-icons i {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+
+/* this is for a trip sec */
+
+
+/* ----------------------------  */
+
+.second-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.second-sec-h6 {
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: -88px;
+}
+
+.second-sec-p {
+    margin: 0px;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.second-sec button {
+    padding: 19px 94px;
+    border-radius: 34px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #01cd8a, #05a48e, #088092);
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.second-sec button:hover {
+    background-image: linear-gradient(to left, #01cd8a, #05a48e, #088092);
+    transition: 1s ease-in-out;
+}
+
+.second-sec button:focus {
+    outline: none;
+}
+
+
+/* this is the object area */
+
+
+/* -----------------------------  */
+
+.objects-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255, 0.6);
+    color: black;
+    width: 100%;
+    flex-direction: row;
+    padding: 5% 5%;
+    box-sizing: border-box;
+}
+
+.bag-discription {
+    margin-left: 5%;
+}
+
+.bag-discription p a {
+    color: #71a1fc;
+}
+
+.bag-discription2 p a {
+    color: #71a1fc;
+}
+
+.bag-discription h2 {
+    margin: 0px;
+    font-size: 30px;
+    background-image: linear-gradient(to right, #79e4b3, #05a28f, #087a93);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.bag-discription p {
+    line-height: 30px;
+}
+
+.i1 {
+    color: #ca31bc;
+}
+
+.i2 {
+    color: #b35320;
+}
+
+.i3 {
+    color: #069990;
+}
+
+.i4 {
+    color: #474747;
+}
+
+
+/* this is the bottom  right picture css  */
+
+.bag-discription2 {
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+.bag-discription2 h2 {
+    margin: 0px;
+    font-size: 30px;
+    background-image: linear-gradient(to right, #79e4b3, #05a28f, #087a93);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.bag-discription2 p {
+    line-height: 30px;
+}
+
+.bag-pic2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 0px 10%;
+}
+
+.left-object {
+    width: 50%;
+    padding: 0px 1%;
+}
+
+.left-object .travelry_slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.owl-stage {
+    transform: translate3d(-2366px, 0px, 0px);
+    transition: all 0.25s ease 0s;
+    width: 5522px;
+    display: flex;
+    align-items: center;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: none!important;
+    zoom: 1;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: 1px solid black;
+    padding: 6px 15px!important;
+    border-radius: 20px;
+    font-size: 26px;
+}
+
+.right-object {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-object p {
+    margin: opx;
+    line-height: 30px;
+}
+
+.right-object h6 {
+    margin: 0px;
+    text-align: right;
+}
+
+.bag-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px 0px;
+    padding: 0px 10%;
+}
+
+.line {
+    width: 2px;
+    height: 88vh;
+    display: flex;
+    background-color: rgb(87, 84, 84);
+    margin: 0px;
+    opacity: 0.5;
+}
+
+.line2 {
+    border: 1px solid black;
+    width: 110%;
+    opacity: 0.5;
+}
+
+.des-icon {
+    padding-top: 15px;
+}
+
+.des-icon2 i {
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-top: 50px;
+    padding: 8px 11px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+/* this is the onother section -------next  */
+
+
+/* --------------------------------------------  */
+
+.another-section {
+    background: url(./images/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: 163%;
+}
+
+.win-trip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.win-trip h3 {
+    margin: 0px;
+    font-size: 50px;
+    color: #245077;
+    font-weight: 500;
+}
+
+.win-trip p {
+    margin: 0px;
+    font-size: 40px;
+    color: #245077;
+    font-weight: 300;
+    letter-spacing: 6px;
+    margin-top: 5px;
+}
+
+.win-trip small {
+    color: #245077;
+    margin-top: 5px;
+}
+
+.email {
+    background-color: white;
+    margin-top: 1%;
+    padding: 2px 0px;
+    border-radius: 30px;
+}
+
+.email input {
+    background: transparent;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: none;
+    padding: 5px 16px;
+}
+
+.email input:focus {
+    outline: none;
+}
+
+.email button {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #79e4b3, #05a28f, #087a93);
+}
+
+.email button:hover {
+    background-image: linear-gradient(to left, #79e4b3, #05a28f, #087a93);
+}
+
+.email button:focus {
+    outline: none;
+}
+
+
+/* this is the popular area  */
+
+
+/* ------------------------------- */
+
+.popular-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+
+.header-banner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-banner2 h2 {
+    font-size: 45px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.select-area {
+    margin: 3vh 2vh;
+    border: none;
+    font-weight: 100;
+    background: none;
+    cursor: pointer;
+}
+
+.select-area:focus {
+    outline: none;
+}
+
+.links-area a {
+    margin: 0px 25px;
+    color: #32b2cf;
+}
+
+
+/* this is the suitcasse area  */
+
+#outer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    margin: auto;
+    flex-direction: column;
+}
+
+.display-discription h5 {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.display-discription p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.first-suitcasearea {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: inherit;
+}
+
+.center_display {
+    width: 40%;
+    height: inherit;
+}
+
+.center_display .display-img {
+    height: unset;
+}
+
+.center_display img {
+    height: auto;
+    padding-top: 13%;
+}
+
+.center_display .suitcase-display {
+    height: 706px;
+}
+
+.right-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: inherit;
+}
+
+.suitcase-display {
+    background-color: white;
+    width: calc(100% - 10px);
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.suitcase-display:hover {
+    box-shadow: 3px 3px 10px rgb(180, 178, 178);
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.display-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    height: 205px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.display-discription i {
+    margin-right: 5px;
+}
+
+#circle1 {
+    color: #bb32ce;
+}
+
+#circle2 {
+    color: #a44c26;
+}
+
+#circle3 {
+    color: #059e8f;
+}
+
+
+/* thi is the second suitcase area  */
+
+.second-suitcasearea {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.display-img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+}
+
+
+/* this is product button  */
+
+.product {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-btn {
+    cursor: pointer;
+    border: none;
+    padding: 18px 70px;
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient(to right, #01cd8a, #05a48e, #088092);
+}
+
+.product-btn:hover {
+    background-image: linear-gradient(to left, #01cd8a, #05a48e, #088092);
+}
+
+.product-btn:focus {
+    outline: none;
+}
+
+
+/* this is the footer area  */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inner-footer-area {
+    display: flex;
+    width: 90%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.inner-footer-area ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.inner-footer-area ul li a {
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.8;
+    color: black;
+}
+
+.inner-footer-area ul li a:hover {
+    background-image: linear-gradient(to right, rgb(17, 184, 108), rgb(5, 131, 116), rgb(5, 79, 95));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.footer-area-col {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    color: #2f3030;
+}
+
+.copy-right {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    .bag-pic2 {
+        padding: 0px 6px;
+        padding-left: 6%;
+    }
+    .bag-pic {
+        padding: 0px 6px;
+        padding-left: 6%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .another-section {
+        background-size: 222%;
+    }
+    #dropdown {
+        margin: 0px;
+        font-size: 14px;
+    }
+    .navbar {
+        margin-right: opx;
+    }
+    .navbar ul {
+        font-size: 14px;
+    }
+    .navbar li {
+        margin: 0px 16px;
+    }
+    .right-icons i {
+        padding: 0px 4px;
+        margin: 0px;
+    }
+    .right-object p {
+        margin: opx;
+        line-height: 20px;
+    }
+    .line {
+        height: 74vh;
+    }
+    .bag-discription h2 {
+        font-size: 20px;
+    }
+    .bag-pic img {
+        width: 50%;
+    }
+    .bag-discription2 h2 {
+        font-size: 20px;
+    }
+    .bag-pic2 img {
+        width: 50%;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 50%;
+    }
+    .center_display img {
+        width: 60%;
+    }
+    .footer-area-col {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .another-section {
+        background-size: 243%;
+    }
+    .leftside {
+        margin-left: -8px;
+    }
+    #dropdown {
+        font-size: 12px;
+    }
+    .navbar {
+        margin-right: 32px;
+        ;
+    }
+    .navbar ul {
+        font-size: 12px;
+    }
+    .navbar li {
+        margin: 0px 7px;
+    }
+    .right-icons i {
+        font-size: 12px;
+    }
+    .bag-pic {
+        flex-direction: column;
+    }
+    .bag-pic img {
+        padding-bottom: 21px;
+    }
+    .des-icon {
+        padding-top: 10px;
+    }
+    .right-object p {
+        margin: 0px;
+    }
+    .bag-pic2 {
+        flex-direction: column;
+    }
+    .bag-pic2 img {
+        padding-bottom: 21px;
+        padding-top: 25px;
+    }
+    .display-discription h5 {
+        font-size: 14px;
+    }
+    .des-icon {
+        padding-top: 10px;
+    }
+    .right-object p {
+        margin: 0px;
+    }
+    .line {
+        height: 100vh;
+    }
+    .left-object .travelry_slide {
+        flex-direction: column;
+    }
+    .owl-carousel .owl-item img {
+        padding-bottom: 25px;
+    }
+    .display-img img {
+        width: 71%;
+    }
+    .display-img2 img {
+        padding-top: 90%;
+        width: 90%;
+    }
+    .footer-area-col h1 {
+        font-size: 16px;
+    }
+    .footer-area-col ul li {
+        font-size: 14px;
+    }
+    .footer-area-col {
+        padding: 0px 10px;
+    }
+    .inner-footer-area {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .manue-button {
+        display: block;
+        position: absolute;
+        top: 77px;
+        right: 29px;
+        padding: 6px 14px;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .navbar ul {
+        position: absolute;
+        background-color: rgb(216, 210, 210);
+        display: none;
+        top: 115px;
+        right: 29px;
+        width: calc(100% - 90px);
+        padding: 20px;
+        z-index: 1;
+        border-radius: 3px;
+    }
+    .navbar ul li {
+        justify-content: center;
+        margin: 0px 7px;
+        width: auto;
+        display: flex;
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+    .navbar li a {
+        font-weight: normal;
+        color: rgb(8, 8, 8);
+    }
+    header {
+        justify-content: center;
+    }
+    .topheading {
+        justify-content: flex-start;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .another-section {
+        background-size: 494%;
+    }
+    .line {
+        height: 95vh;
+    }
+    .first-suitcasearea {
+        align-items: center;
+        flex-direction: column;
+    }
+    .left-display {
+        flex-direction: row;
+        width: 90%;
+    }
+    .center_display {
+        width: 90%;
+    }
+    .center_display img {
+        width: 45%;
+    }
+    .display-img2 img {
+        padding-top: 30%;
+    }
+    .right-display {
+        flex-direction: row;
+        width: 90%;
+    }
+    .second-suitcasearea {
+        flex-direction: column;
+        align-items: center;
+    }
+    .inner-footer-area {
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .footer-area-col {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .another-section {
+        background-size: 598%;
+    }
+    .display-discription h5 {
+        font-size: 11px;
+    }
+    .links-area a {
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .second-sec-p {
+        font-size: 31px;
+    }
+    .second-sec button {
+        padding: 16px 50px;
+        border-radius: 30px;
+    }
+    .line {
+        display: none;
+    }
+    .line2 {
+        display: none;
+    }
+    .objects-area {
+        flex-direction: column;
+    }
+    .right-object {
+        width: 100%;
+    }
+    .owl-carousel .owl-item img {
+        width: 100%;
+    }
+    .win-trip h3 {
+        font-size: 30px;
+    }
+    .win-trip p {
+        font-size: 25px;
+    }
+    .email {
+        padding: 0px;
+    }
+    .another-section {
+        background-size: 1194%;
+    }
+    .header-banner2 h2 {
+        font-size: 30px;
+    }
+    .links-area a {
+        font-size: 10px;
+        margin: 0px 7px;
+    }
+    .select-area {
+        font-size: 11px;
+        margin: 10px;
+    }
+    .left-display {
+        flex-direction: column;
+    }
+    .right-display {
+        flex-direction: column;
+    }
+    .center_display .suitcase-display {
+        height: 100%;
+    }
+    .center_display img {
+        width: 70%;
+    }
+    .inner-footer-area {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .bag-pic2 img {
+        width: 80%;
+    }
+    .owl-carousel .owl-item img {
+        width: 100%;
+    }
+    .bag-discription p {
+        line-height: 25px;
+    }
+    .bag-pic img {
+        width: 80%;
+    }
+    .copy-right {
+        font-size: 13px;
+    }
+}
